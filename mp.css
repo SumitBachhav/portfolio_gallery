@@ -1,0 +1,92 @@
+h1{text-align: center;}
+
+.navigation {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }  
+
+.navigation button {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: #e9e9e9;
+  }
+
+.navigation button:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.navigation button.active {
+    background-color: #2196F3;
+    color: white;
+  }
+
+#SearchButton{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: #e9e9e9;
+}
+
+#searchInput{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+.photo{
+    width: 31%;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.bottom button:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.Previous{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: black;
+    background-color: #8A2BE2;
+}
+
+.Next{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: black;
+    background-color: #8A2BE2;
+
+}
+

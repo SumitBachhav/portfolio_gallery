@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascrit</title>
+    <link rel="stylesheet" href="mp.css">
+    <script src = mp.js></script>
+</head>
+
+<body>
+    <header><h1>Portfolio Gallery</h1></header>
+
+    <nav class="navigation">
+        <button onclick="filterButton('car')">CARS</button>
+        <button onclick="filterButton('nature')">NATURE</button>
+        <button onclick="filterButton('building')">BUILDINGS</button>
+        <button onclick="filterButton('animal')">ANIMALS</button>
+        <button onclick="filterButton('people')">PEOPLE</button>
+        <button id="SearchButton" onclick="search()">🔎</button>
+        <input id="searchInput" type="text" placeholder="Search..">
+        
+    </nav>
+
+    <main>
+        <section>
+            <img class="photo" id = im1 src="" alt="image1">
+            <img class="photo" id = im2 src="" alt="image2">
+            <img class="photo" id = im3 src="" alt="image3">
+            <img class="photo" id = im4 src="" alt="image4">
+            <img class="photo" id = im5 src="" alt="image5">
+            <img class="photo" id = im6 src="" alt="image6">
+            <img class="photo" id = im7 src="" alt="image7">
+            <img class="photo" id = im8 src="" alt="image8">
+            <img class="photo" id = im9 src="" alt="image9">
+            <img class="photo" id = im10 src="" alt="image10">
+            <img class="photo" id = im11 src="" alt="image11">
+            <img class="photo" id = im12 src="" alt="image12">
+            <img class="photo" id = im13 src="" alt="image13">
+            <img class="photo" id = im14 src="" alt="image14">
+            <img class="photo" id = im15 src="" alt="image15">
+            <br>
+            <br>
+        </section>   
+    </main>
+
+    <footer>
+        <section class="bottom">
+            <button onclick="previousFunc()" class="Previous">Prev</button>
+            <button onclick="nextFunc()" class="Next">Next</button>
+        </section>
+    </footer>
+</body>
+</html>
